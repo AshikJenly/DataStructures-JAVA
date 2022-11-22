@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 class MergeSort{
   public static void main(String[] args) {
-    int A[]={2,5,7,9,12,6,1,100};
-    int C[]=merge_sort(A);
-   System.out.println( Arrays.toString(C));
+    int ArrayBeforeSort[]={2,5,7,9,12,6,1,100};
+    int ArrayAfterSort[]=merge_sort(ArrayBeforeSort);
+   System.out.println( Arrays.toString(ArrayAfterSort));
   }
   static int[] merge(int [] first,int [] second){
 
